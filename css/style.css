@@ -1,0 +1,213 @@
+:root {
+  --primery-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --primery-white-color: #ffffff;
+  --footer-color: #2f303a;
+}
+
+/* общие стили сайта  */
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+  background-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* стили логотипа */
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  color: #2196f3;
+}
+.logo-black {
+  color: #000000;
+}
+.logo-white {
+  color: #ffffff;
+}
+
+/* стили ссылок */
+.site-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--primery-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
+
+.contacts .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* стили героя */
+.hero {
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primery-white-color);
+}
+/* button */
+.button {
+  color: var(--primery-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  background-color: VAR(--accent-text-color);
+}
+.button:hover {
+  background-color: VAR(--secondary-text-color);
+}
+
+/* стили заголовка  секции*/
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+
+  color: var(--primery-text-color);
+}
+
+/* стилm заголовка преимуществ */
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+
+  text-transform: uppercase;
+  color: var(--primery-text-color);
+}
+/* описание преимуществ */
+.advantages-text {
+  font-size: 14px;
+  line-height: 1.714;
+  color: var(--secondary-text-color);
+}
+
+/* стили "Чем мы занимамся */
+.app-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primery-white-color);
+  background: rgba(47, 48, 58, 0.8);
+}
+
+/* стили команды */
+.team-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  color: var(--primery-text-color);
+}
+
+.team-function {
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+
+  color: var(--secondary-text-color);
+}
+ul a:hover,
+ul a:focus {
+  color: var(--accent-text-color);
+}
+
+/* стили футера */
+footer {
+  background-color: var(--footer-color);
+}
+
+.address {
+  font-size: 14px;
+  line-height: 1.714;
+  color: var(--primery-white-color);
+}
+
+.address a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.join {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  text-transform: uppercase;
+  color: var(--primery-white-color);
+}
+
+/* стили портфолио */
+.btn-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  color: var(--primery-text-color);
+  background: #f5f4fa;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  color: var(--primery-white-color);
+  background-color: var(--accent-text-color);
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primery-text-color);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--secondary-text-color);
+}
+
+.portfolio-desc {
+  font-size: 18px;
+  line-height: 1.556;
+  color: var(--primery-white-color);
+  background-color: var(--accent-text-color);
+}
+
+.portfolio-items .link:hover {
+  background-color: var(--accent-text-color);
+}
