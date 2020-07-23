@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 :root {
   --primery-text-color: #212121;
   --secondary-text-color: #757575;
@@ -11,15 +21,25 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
-  background-color: #ffffff;
+  background-color: var(--primery-white-color);
 }
 
 .list {
   list-style: none;
+  margin: 0;
 }
 
 .link {
   text-decoration: none;
+}
+.img {
+  display: block;
+}
+.conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 /* стили логотипа */
@@ -71,6 +91,8 @@ body {
   background-color: rgba(47, 48, 58, 0.8);
 }
 .hero-title {
+  margin: 0;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
@@ -96,6 +118,8 @@ body {
 
 /* стили заголовка  секции*/
 .section-title {
+  margin: 0;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
@@ -105,7 +129,14 @@ body {
 }
 
 /* стилm заголовка преимуществ */
+.advantages {
+  background-color: tomato;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .advantages-title {
+  margin-top: 0;
+  margin-bottom: 10;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -115,13 +146,23 @@ body {
 }
 /* описание преимуществ */
 .advantages-text {
+  margin: 0;
+
   font-size: 14px;
   line-height: 1.714;
   color: var(--secondary-text-color);
 }
 
 /* стили "Чем мы занимамся */
+.engage {
+  background-color: turquoise;
+  padding-bottom: 94px;
+}
+.engage-title {
+  margin-bottom: 50px;
+}
 .app-title {
+  margin: 0;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -132,6 +173,9 @@ body {
 }
 
 /* стили команды */
+.team {
+  background-color: #f5f4fa;
+}
 .team-names {
   font-weight: 500;
   font-size: 16px;
