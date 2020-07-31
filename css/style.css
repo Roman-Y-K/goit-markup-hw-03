@@ -251,8 +251,8 @@ body {
   margin-right: 30px;
 }
 
-.team-foto {
-  margin-bottom: 30px;
+.team-desc {
+  padding-top: 30px;
 }
 .team-names {
   margin-top: 0;
@@ -300,14 +300,19 @@ ul a:focus {
 
 .footer-content {
   display: flex;
-}
-.address-box {
-  margin-right: 69px;
+  align-items: baseline;
 }
 
 .logo-footer {
   display: inline-block;
   margin-bottom: 20px;
+}
+
+.footer-box {
+  width: 270px;
+}
+.footer-box:not(:last-child) {
+  margin-right: 30px;
 }
 
 .address {
@@ -382,8 +387,11 @@ ul a:focus {
   margin-bottom: 0;
 }
 
-.portfolio-img {
-  margin-bottom: 20px;
+.portfolio-desc {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .portfolio-title {
@@ -403,7 +411,7 @@ ul a:focus {
   color: var(--secondary-text-color);
 }
 
-.portfolio-desc {
+.portfolio-hov {
   font-size: 18px;
   line-height: 1.556;
   color: var(--primery-white-color);
